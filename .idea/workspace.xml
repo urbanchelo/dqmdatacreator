@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80d47eae-d5d7-462f-aff2-ac910f6c0718" name="Default" comment="" />
+    <list default="true" id="80d47eae-d5d7-462f-aff2-ac910f6c0718" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ptv/dqm/matches/ForfarVsQueensPark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ptv/dqm/matches/ForfarVsQueensPark.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,8 +85,8 @@
       <file leaf-file-name="ForfarVsQueensPark.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ptv/dqm/matches/ForfarVsQueensPark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="240" column="35" lean-forward="true" selection-start-line="240" selection-start-column="35" selection-end-line="240" selection-end-column="35" />
+            <state relative-caret-position="290">
+              <caret line="139" column="63" lean-forward="true" selection-start-line="139" selection-start-column="63" selection-end-line="139" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,8 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jjfsb6ykjopcopmydou3isc7dw</find>
-      <find>hlw1qxaidkobague4zhtanphrx</find>
       <find>y47fogl4xg9dissubda2sn039k</find>
       <find>ay8t5iz872d0s7evxjrmdkru2</find>
       <find>3626vdbvzv1hbfszce5z23biar</find>
@@ -122,7 +122,6 @@
       <find>optaHlu</find>
       <find>optaAlu</find>
       <find>5fqgjochl8pbgkrvpuhrvdje61</find>
-      <find>yellow</find>
       <find>YYYY-MM-DDTHH:MI:SSTZH:TZM</find>
       <find>YYYY-MM-DD&quot;T&quot;HH24:MI:SSTZH:TZM</find>
       <find>'YYYY-MM-DD\&quot;T\&quot;HH24:MI:SSTZH:TZM'</find>
@@ -133,6 +132,9 @@
       <find>70ur2q9m55b85jsg9b2vk8e6g1</find>
       <find>ISO_8061_TZ</find>
       <find>OPTA</find>
+      <find>off</find>
+      <find>sub</find>
+      <find>yellow</find>
     </findStrings>
     <replaceStrings>
       <replace>OPTA_CORE_UUID</replace>
@@ -150,7 +152,13 @@
       <replace>YYYY-MM-DD\&quot;T\&quot;HH24:MI:SSTZH:TZM</replace>
       <replace>&quot; + ISO_8061 + &quot;</replace>
       <replace>SOURCE_UUID</replace>
+      <replace>opOff</replace>
+      <replace>opSub</replace>
+      <replace>opYellow</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -210,6 +218,7 @@
     <option name="width" value="2172" />
     <option name="height" value="972" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -399,12 +408,12 @@
       <workItem from="1528202779598" duration="11261000" />
       <workItem from="1528374005238" duration="45249000" />
       <workItem from="1528561381495" duration="12962000" />
-      <workItem from="1528657417624" duration="4997000" />
+      <workItem from="1528657417624" duration="5642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74469000" />
+    <option name="totallyTimeSpent" value="75114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="972" extended-state="6" />
@@ -428,9 +437,9 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938574" weight="0.18618266" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3294849" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="7" sideWeight="0.49938574" visible="true" weight="0.28922716" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="7" sideWeight="0.49938574" visible="true" weight="0.16393442" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.09130781" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -788,8 +797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ptv/dqm/matches/ForfarVsQueensPark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="240" column="35" lean-forward="true" selection-start-line="240" selection-start-column="35" selection-end-line="240" selection-end-column="35" />
+        <state relative-caret-position="290">
+          <caret line="139" column="63" lean-forward="true" selection-start-line="139" selection-start-column="63" selection-end-line="139" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

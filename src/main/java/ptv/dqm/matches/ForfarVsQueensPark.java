@@ -60,6 +60,7 @@ public class ForfarVsQueensPark {
       PeriodTypeEnum.SECOND_HALF_START.getUuid(),
       PeriodTypeEnum.SECOND_HALF_STOP.getUuid());
 
+  // ----- OFFICIALS -----
   static List<String> off_types = Arrays
       .asList(OfficialTypeEnum.MAIN.getUuid(), OfficialTypeEnum.LINEMAN_1.getUuid(), OfficialTypeEnum.LINEMAN_2.getUuid());
 
@@ -112,9 +113,9 @@ public class ForfarVsQueensPark {
       REAL_TS);
 
   // OPTA OFFICIALS
-  static MatchEvent off1 = new MatchEvent(off_types.get(0), OPTA, null, "o43620", null, null, null, "Craig", "Napier", null, null, null, null, REAL_TS);
-  static MatchEvent off2 = new MatchEvent(off_types.get(1), OPTA, null, "o43167", null, null, null, "Anthony", "Cooper", null, null, null, null, REAL_TS);
-  static MatchEvent off3 = new MatchEvent(off_types.get(2), OPTA, null, "o48384", null, null, null, "Daniel", "Graves", null, null, null, null, REAL_TS);
+  static MatchEvent opOff1 = new MatchEvent(off_types.get(0), OPTA, null, "o43620", null, null, null, "Craig", "Napier", null, null, null, null, REAL_TS);
+  static MatchEvent opOff2 = new MatchEvent(off_types.get(1), OPTA, null, "o43167", null, null, null, "Anthony", "Cooper", null, null, null, null, REAL_TS);
+  static MatchEvent opOff3 = new MatchEvent(off_types.get(2), OPTA, null, "o48384", null, null, null, "Daniel", "Graves", null, null, null, null, REAL_TS);
 
   // OPTA PERIODS
   static MatchEvent period1 = new MatchEvent(period_types.get(0), OPTA, null, null, null, null, null, null, null, 0, null, null, null, opta_period_TS.get(0));
@@ -123,45 +124,45 @@ public class ForfarVsQueensPark {
   static MatchEvent period4 = new MatchEvent(period_types.get(3), OPTA, null, null, null, null, null, null, null, 95, null, null, null, opta_period_TS.get(3));
 
   // OPTA GOALS
-  static MatchEvent goal1 = new MatchEvent(GOAL, OPTA, "697618361", "p229312", HOM_ID, HOM_POS, 7, "Ross", "Maciver", 13, 12, 46, 1,
+  static MatchEvent opGoal1 = new MatchEvent(GOAL, OPTA, "697618361", "p229312", HOM_ID, HOM_POS, 7, "Ross", "Maciver", 13, 12, 46, 1,
       "TO_TIMESTAMP_TZ('2018-04-21T15:13:39+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent goal2 = new MatchEvent(GOAL, OPTA, "110624170", "p192874", AWA_ID, AWA_POS, 10, "Luke", "Donnelly", 68, 67, 12, 2,
+  static MatchEvent opGoal2 = new MatchEvent(GOAL, OPTA, "110624170", "p192874", AWA_ID, AWA_POS, 10, "Luke", "Donnelly", 68, 67, 12, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:23:46+01:00'," + ISO_8061_TZ + ")");
 
-  static MatchEvent assist1 = new MatchEvent(ASSIST, OPTA, "110624170", "p212595", AWA_ID, AWA_POS, 16, "Robbie", "Leitch", 68, 67, 12, 2,
+  static MatchEvent opAssist1 = new MatchEvent(ASSIST, OPTA, "110624170", "p212595", AWA_ID, AWA_POS, 16, "Robbie", "Leitch", 68, 67, 12, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:23:46+01:00'," + ISO_8061_TZ + ")");
 
-  static MatchEvent subIn1 = new MatchEvent(SUB_IN, OPTA, "1399231837", "p172210", HOM_ID, HOM_POS, 12, "Josh", "Peters", 66, 65, 29, 2,
+  static MatchEvent opSubIn1 = new MatchEvent(SUB_IN, OPTA, "1399231837", "p172210", HOM_ID, HOM_POS, 12, "Josh", "Peters", 66, 65, 29, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:21:52+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent subOut1 = new MatchEvent(SUB_OUT, OPTA, "1399231837", "p193419", HOM_ID, HOM_POS, 11, "Greg", "Hurst", 66, 65, 29, 2,
+  static MatchEvent opSubOut1 = new MatchEvent(SUB_OUT, OPTA, "1399231837", "p193419", HOM_ID, HOM_POS, 11, "Greg", "Hurst", 66, 65, 29, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:21:52+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent subIn2 = new MatchEvent(SUB_IN, OPTA, "467250082", "p442279", HOM_ID, HOM_POS, 16, "Jack", "Allan", 88, 87, 2, 2,
+  static MatchEvent opSubIn2 = new MatchEvent(SUB_IN, OPTA, "467250082", "p442279", HOM_ID, HOM_POS, 16, "Jack", "Allan", 88, 87, 2, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:43:25+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent subOut2 = new MatchEvent(SUB_OUT, OPTA, "467250082", "p111914", HOM_ID, HOM_POS, 10, "Dylan", "Easton", 88, 87, 2, 2,
+  static MatchEvent opSubOut2 = new MatchEvent(SUB_OUT, OPTA, "467250082", "p111914", HOM_ID, HOM_POS, 10, "Dylan", "Easton", 88, 87, 2, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:43:25+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent subIn3 = new MatchEvent(SUB_IN, OPTA, "836912576", "p194202", AWA_ID, AWA_POS, 14, "Dominic", "Docherty", 58, 57, 30, 2,
+  static MatchEvent opSubIn3 = new MatchEvent(SUB_IN, OPTA, "836912576", "p194202", AWA_ID, AWA_POS, 14, "Dominic", "Docherty", 58, 57, 30, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:13:53+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent subOut3 = new MatchEvent(SUB_OUT, OPTA, "836912576", "p448506", AWA_ID, AWA_POS, 7, "Michael", "Ruth", 58, 57, 30, 2,
+  static MatchEvent opSubOut3 = new MatchEvent(SUB_OUT, OPTA, "836912576", "p448506", AWA_ID, AWA_POS, 7, "Michael", "Ruth", 58, 57, 30, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:13:53+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent subIn4 = new MatchEvent(SUB_IN, OPTA, "1731663184", "p212595", AWA_ID, AWA_POS, 16, "Robbie", "Leitch", 66, 65, 29, 2,
+  static MatchEvent opSubIn4 = new MatchEvent(SUB_IN, OPTA, "1731663184", "p212595", AWA_ID, AWA_POS, 16, "Robbie", "Leitch", 66, 65, 29, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:18:31+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent subOut4 = new MatchEvent(SUB_OUT, OPTA, "1731663184", "p213751", AWA_ID, AWA_POS, 11, "David", "Galt", 66, 65, 29, 2,
+  static MatchEvent opSubOut4 = new MatchEvent(SUB_OUT, OPTA, "1731663184", "p213751", AWA_ID, AWA_POS, 11, "David", "Galt", 66, 65, 29, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:18:31+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent subIn5 = new MatchEvent(SUB_IN, OPTA, "1058492806", "p172210", AWA_ID, AWA_POS, 12, "Thomas", "Orr", 85, 84, 5, 2,
+  static MatchEvent opSubIn5 = new MatchEvent(SUB_IN, OPTA, "1058492806", "p172210", AWA_ID, AWA_POS, 12, "Thomas", "Orr", 85, 84, 5, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:21:52+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent subOut5 = new MatchEvent(SUB_OUT, OPTA, "1058492806", "p193419", AWA_ID, AWA_POS, 8, "Anton", "Brady", 85, 84, 5, 2,
+  static MatchEvent opSubOut5 = new MatchEvent(SUB_OUT, OPTA, "1058492806", "p193419", AWA_ID, AWA_POS, 8, "Anton", "Brady", 85, 84, 5, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:21:52+01:00'," + ISO_8061_TZ + ")");
 
   // OPTA BOOKINGS
-  static MatchEvent yellow1 = new MatchEvent(YELLOW, OPTA, "95595081", "p106270", HOM_ID, HOM_POS, 1, "Marc", "McCallum", 46, 45, 40, 1,
+  static MatchEvent opYellow1 = new MatchEvent(YELLOW, OPTA, "95595081", "p106270", HOM_ID, HOM_POS, 1, "Marc", "McCallum", 46, 45, 40, 1,
       "TO_TIMESTAMP_TZ('2018-04-21T15:46:12+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent yellow2 = new MatchEvent(YELLOW, OPTA, "1660434918", "p193419", HOM_ID, HOM_POS, 11, "Greg", "Hurst", 51, 50, 18, 2,
+  static MatchEvent opYellow2 = new MatchEvent(YELLOW, OPTA, "1660434918", "p193419", HOM_ID, HOM_POS, 11, "Greg", "Hurst", 51, 50, 18, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:06:41+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent yellow3 = new MatchEvent(YELLOW, OPTA, "2102440303", "p136362", AWA_ID, AWA_POS, 6, "Scott", "Gibson", 55, 54, 3, 2,
+  static MatchEvent opYellow3 = new MatchEvent(YELLOW, OPTA, "2102440303", "p136362", AWA_ID, AWA_POS, 6, "Scott", "Gibson", 55, 54, 3, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:10:26+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent yellow4 = new MatchEvent(YELLOW, OPTA, "1942084890", "p194202", AWA_ID, AWA_POS, 14, "Dominic", "Docherty", 61, 60, 2, 2,
+  static MatchEvent opYellow4 = new MatchEvent(YELLOW, OPTA, "1942084890", "p194202", AWA_ID, AWA_POS, 14, "Dominic", "Docherty", 61, 60, 2, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:16:25+01:00'," + ISO_8061_TZ + ")");
-  static MatchEvent red1 = new MatchEvent(RED, OPTA, "684420350", "p173200", HOM_ID, HOM_POS, 14, "Dominic", "Docherty", 82, 81, 56, 2,
+  static MatchEvent opRed1 = new MatchEvent(RED, OPTA, "684420350", "p173200", HOM_ID, HOM_POS, 14, "Dominic", "Docherty", 82, 81, 56, 2,
       "TO_TIMESTAMP_TZ('2018-04-21T16:38:19+01:00'," + ISO_8061_TZ + ")");
 
   static List<MatchEvent> optaHomeLineUps = Arrays.asList(opHLU1, opHLU2, opHLU3, opHLU4, opHLU5, opHLU6, opHLU7, opHLU8, opHLU9,
@@ -170,11 +171,11 @@ public class ForfarVsQueensPark {
   static List<MatchEvent> optaAwayLineUps = Arrays.asList(opALU1, opALU2, opALU3, opALU4, opALU5, opALU6, opALU7, opALU8, opALU9,
       opALU10, opALU11, opALU12, opALU13, opALU14, opALU15, opALU16, opALU17, opALU18, opALU19);
 
-  static List<MatchEvent> officials = Arrays.asList(off1, off2, off3);
+  static List<MatchEvent> officials = Arrays.asList(opOff1, opOff2, opOff3);
   static List<MatchEvent> periods = Arrays.asList(period1, period2, period3, period4);
-  static List<MatchEvent> goals = Arrays.asList(goal1, goal2, assist1);
-  static List<MatchEvent> subs = Arrays.asList(subIn1, subOut1, subIn2, subOut2, subIn3, subOut3, subIn4, subOut4, subIn5, subOut5);
-  static List<MatchEvent> bookings = Arrays.asList(yellow1, yellow2, yellow3, yellow4, red1);
+  static List<MatchEvent> goals = Arrays.asList(opGoal1, opGoal2, opAssist1);
+  static List<MatchEvent> opSubs = Arrays.asList(opSubIn1, opSubOut1, opSubIn2, opSubOut2, opSubIn3, opSubOut3, opSubIn4, opSubOut4, opSubIn5, opSubOut5);
+  static List<MatchEvent> bookings = Arrays.asList(opYellow1, opYellow2, opYellow3, opYellow4, opRed1);
 
   // ----- OPTA SUMMARIES VALUES -----
   static List<String> opSummaries = Arrays
@@ -242,6 +243,7 @@ public class ForfarVsQueensPark {
           null, null,
           UPDATE_CREATE_TS);
     }
+
     print("COMMIT;");
 
     print("\n----- LINEUPS AWAY TEAM -----");
@@ -322,7 +324,7 @@ public class ForfarVsQueensPark {
     print("COMMIT;");
 
     print("\n----- SUBSTITUTIONS -----");
-    for (MatchEvent event : subs) {
+    for (MatchEvent event : opSubs) {
       randomUuid = getUniqueId();
       printQuery(groupInsert, randomUuid, FIX_UUID, event.getEventTypeUuid(), UNCHECKED_UUID, null, null, event.getTeamPos(), 0, HUMAN_ERROR, RESP_ANALYST);
       printQuery(eventInsert, getUniqueId(), randomUuid, event.getSource(), null,
