@@ -1,0 +1,22 @@
+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(”“î€8ÍŞäÎ¾,
+[squid:S1118":Add a private constructor to hide the implicit public one.(³äóÁüÿÿÿÿ8ÍŞäÎ¾,
+zsquid:S3008"YRename this field "opta_period_TS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îæ¼¦üÿÿÿÿ8ÍŞäÎ¾,
+dsquid:S1192"HDefine a constant instead of duplicating this literal "p212595" 3 times.(²ø¨ÿ8ÍŞäÎ¾,
+isquid:S1192"HDefine a constant instead of duplicating this literal "p172210" 3 times.(¹ó‰ıÿÿÿÿ8ÍŞäÎ¾,
+ˆsquid:S1192"lDefine a constant instead of duplicating this literal "DQM_OWNER.MATCH_SUMMRS_SUMMR_ID_SEQ.NEXTVAL" 3 times.(Ôı¶8ÍŞäÎ¾,
+csquid:S1192"GDefine a constant instead of duplicating this literal "Leitch" 3 times.(²ø¨ÿ8ÍŞäÎ¾,
+isquid:S1192"HDefine a constant instead of duplicating this literal "Dominic" 4 times.(¦˜å¾ıÿÿÿÿ8ÍŞäÎ¾,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¯“·Ê8ÍŞäÎ¾,
+jsquid:S1192"IDefine a constant instead of duplicating this literal "Docherty" 4 times.(¦˜å¾ıÿÿÿÿ8ÍŞäÎ¾,
+ssquid:S1192"RDefine a constant instead of duplicating this literal "CURRENT_TIMESTAMP" 3 times.(û²‘Üşÿÿÿÿ8ÍŞäÎ¾,
+psquid:S3008"TRename this field "off_types" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ“¹8ÍŞäÎ¾,
+dsquid:S1192"HDefine a constant instead of duplicating this literal "Michael" 4 times.(í°õ—8ÍŞäÎ¾,
+bsquid:S1192"FDefine a constant instead of duplicating this literal "Hurst" 3 times.(ÖøÍé8ÍŞäÎ¾,
+squid:S1192"mDefine a constant instead of duplicating this literal "TO_TIMESTAMP_TZ('2018-04-21T16:21:52+01:00'," 4 times.(ç¹˜©ùÿÿÿÿ8ÍŞäÎ¾,
+xsquid:S3008"WRename this field "period_types" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤–¸£úÿÿÿÿ8ÍŞäÎ¾,
+dsquid:S1192"HDefine a constant instead of duplicating this literal "p193419" 4 times.(ÖøÍé8ÍŞäÎ¾,
+isquid:S1192"HDefine a constant instead of duplicating this literal "p194202" 3 times.(¦˜å¾ıÿÿÿÿ8ÍŞäÎ¾,
+csquid:S1192"GDefine a constant instead of duplicating this literal "Robbie" 3 times.(²ø¨ÿ8ÍŞäÎ¾,

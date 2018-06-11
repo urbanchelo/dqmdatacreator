@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="dqm_owner@devDb" uuid="f249d2ea-93eb-476e-9831-09436a25a5fe">
+      <database-info product="Oracle" version="Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production&#10;With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,&#10;Advanced Analytics and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>dqm_owner</user-name>
+      <introspection-schemas>*:DQM_OWNER</introspection-schemas>
+    </data-source>
+    <data-source name="sportsdata_owner@devDb" uuid="5853379b-f233-409e-b4e3-77d474c4e748">
+      <database-info product="Oracle" version="Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production&#10;With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,&#10;Advanced Analytics and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>sportsdata_owner</user-name>
+      <introspection-schemas>*:DQM_OWNER</introspection-schemas>
+    </data-source>
+  </component>
+</project>
