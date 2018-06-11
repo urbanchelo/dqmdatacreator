@@ -359,6 +359,7 @@ public class ForfarVsQueensPark {
           null, null,
           UPDATE_CREATE_TS);
     }
+
     print("COMMIT;");
 
   }
