@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80d47eae-d5d7-462f-aff2-ac910f6c0718" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ptv/dqm/generators/AbstractGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ptv/dqm/generators/MatchScriptGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ptv/dqm/generators/SummaryScriptGenerator.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ptv/dqm/matches/AlloaVsArbroath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ptv/dqm/matches/ForfarVsQueensPark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ptv/dqm/matches/ForfarVsQueensPark.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,41 +54,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CreatorRunner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreatorRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ptv/dqm/CreatorRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="198">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f249d2ea-93eb-476e-9831-09436a25a5fe/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="271" column="7" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MATCH_EVENT_GROUPS" pinned="false" current-in-tab="false">
-        <entry file="das://f249d2ea-93eb-476e-9831-09436a25a5fe/schema/DQM_OWNER/table/MATCH_EVENT_GROUPS">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true">
-                <filter text="FIXTURE_UUID = 'dwp8wdxnlbmlxf4nthahp5qi2'" />
-                <filter text="FIXTURE_UUID  = 'c9flty5xqm8a1qdukx3gl9icd'" />
-              </filtering>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForfarVsQueensPark.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ForfarVsQueensPark.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ptv/dqm/matches/ForfarVsQueensPark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6498">
-              <caret line="361" column="4" selection-start-line="361" selection-start-column="4" selection-end-line="361" selection-end-column="4" />
+            <state relative-caret-position="1890">
+              <caret line="105" column="48" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,10 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>y47fogl4xg9dissubda2sn039k</find>
-      <find>ay8t5iz872d0s7evxjrmdkru2</find>
-      <find>3626vdbvzv1hbfszce5z23biar</find>
-      <find>5726gxgberkzyfp49kp1i1enve</find>
       <find>lyhwam37vqi1ibot6atuaalw4d</find>
       <find>4pzwrgioju34r5cuh8fqovgi7c</find>
       <find>p229312</find>
@@ -121,7 +95,6 @@
       <find>PlayerPositionEnum.SUBSTITUTE.getUuid()</find>
       <find>MatchEvent</find>
       <find>static static MatchEvent</find>
-      <find>periods</find>
       <find>optaHlu</find>
       <find>optaAlu</find>
       <find>5fqgjochl8pbgkrvpuhrvdje61</find>
@@ -138,6 +111,11 @@
       <find>off</find>
       <find>sub</find>
       <find>yellow</find>
+      <find>jjfsb6ykjopcopmydou3isc7dw</find>
+      <find>ugxnl2cxewnqecqytoogvoonol</find>
+      <find>time</find>
+      <find>getTim</find>
+      <find>periods</find>
     </findStrings>
     <replaceStrings>
       <replace>OPTA_CORE_UUID</replace>
@@ -190,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ptv/dqm/enums/ETEnum.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f249d2ea-93eb-476e-9831-09436a25a5fe/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/ptv/dqm/matches/ForfarVsQueensPark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ptv/dqm/matches/AlloaVsArbroath.java" />
       </list>
     </option>
   </component>
@@ -216,9 +195,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-218" />
     <option name="y" value="22" />
-    <option name="width" value="2172" />
+    <option name="width" value="1680" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -227,8 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,15 +245,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dqm" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dqmdatacreator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dqmdatacreator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dqm" type="462c0819:PsiDirectoryNode" />
               <item name="matches" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,6 +269,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -322,6 +291,7 @@
       <recent name="ptv.dqm" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ptv.dqm.matches" />
       <recent name="ptv.dqm.utils" />
       <recent name="enums" />
     </key>
@@ -411,82 +381,49 @@
       <workItem from="1528202779598" duration="11261000" />
       <workItem from="1528374005238" duration="45249000" />
       <workItem from="1528561381495" duration="12962000" />
-      <workItem from="1528657417624" duration="6536000" />
+      <workItem from="1528657417624" duration="12697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76008000" />
+    <option name="totallyTimeSpent" value="82169000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="972" extended-state="6" />
+    <frame x="0" y="22" width="1680" height="971" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006142" side_tool="true" weight="0.18618266" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32923833" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5006142" side_tool="true" weight="0.18618266" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32923833" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Statistic" order="7" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20884521" />
+      <window_info anchor="bottom" id="Statistic" order="8" />
+      <window_info anchor="right" id="Database" order="5" weight="0.20884521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49938574" weight="0.32786885" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938574" weight="0.18618266" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3294849" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49938574" weight="0.3270809" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938574" weight="0.3130129" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3294849" />
       <window_info anchor="bottom" id="Database Console" order="7" sideWeight="0.49938574" weight="0.42154565" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09090909" />
-      <window_info anchor="bottom" id="SonarLint" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1941032" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.2895204" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3117229" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3294849" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" order="10" />
-      <window_info anchor="bottom" id="SonarLint" order="11" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32981676" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09130781" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3285968" />
-      <window_info anchor="right" id="Database" order="6" weight="0.14528301" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32816774" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -675,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ptv/dqm/model/MatchEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ptv/dqm/enums/BookingTypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -753,23 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f249d2ea-93eb-476e-9831-09436a25a5fe/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="271" column="7" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f249d2ea-93eb-476e-9831-09436a25a5fe/schema/DQM_OWNER/table/MATCH_EVENT_GROUPS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="FIXTURE_UUID = 'dwp8wdxnlbmlxf4nthahp5qi2'" />
-            <filter text="FIXTURE_UUID  = 'c9flty5xqm8a1qdukx3gl9icd'" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ptv/dqm/generators/MatchScriptGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -791,20 +704,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ptv/dqm/matches/ForfarVsQueensPark.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ptv/dqm/model/MatchEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6498">
-          <caret line="361" column="4" selection-start-line="361" selection-start-column="4" selection-end-line="361" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="269">
+          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f249d2ea-93eb-476e-9831-09436a25a5fe/schema/DQM_OWNER/table/MATCH_EVENT_GROUPS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="FIXTURE_UUID = 'dwp8wdxnlbmlxf4nthahp5qi2'" />
+            <filter text="FIXTURE_UUID  = 'c9flty5xqm8a1qdukx3gl9icd'" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f249d2ea-93eb-476e-9831-09436a25a5fe/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="271" column="7" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ptv/dqm/matches/AlloaVsArbroath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="90" column="89" selection-start-line="90" selection-start-column="89" selection-end-line="90" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ptv/dqm/CreatorRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="198">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ptv/dqm/matches/ForfarVsQueensPark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="105" column="48" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

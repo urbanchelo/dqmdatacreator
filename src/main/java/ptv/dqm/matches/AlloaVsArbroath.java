@@ -17,13 +17,13 @@ import ptv.dqm.enums.SummaryEnum;
 import ptv.dqm.model.MatchEvent;
 import ptv.dqm.utils.UniqueIdentifier;
 
-public class ForfarVsQueensPark {
-  public static final String FIX_UUID = "dwp8wdxnlbmlxf4nthahp5qi2";
+public class AlloaVsArbroath {
+  public static final String FIX_UUID = "dv2te529w4brd6zgurxbxcl0q";
   public static final String ISO_8061_TZ = "'YYYY-MM-DD\"T\"HH24:MI:SSTZH:TZM'";
-  public static final String UPDATE_CREATE_TS = "TO_TIMESTAMP('2018-06-07T14:07:07.495', 'YYYY-MM-DD\"T\"HH24:MI:SS.FF3')";
-  public static final String REAL_TS = "TO_TIMESTAMP_TZ('2018-05-04T17:52:20+01:00'," + ISO_8061_TZ + ")";
-  public static final String HOM_ID = "t353";
-  public static final String AWA_ID = "t355";
+  public static final String UPDATE_CREATE_TS = "TO_TIMESTAMP('2018-06-12T09:16:55.636', 'YYYY-MM-DD\"T\"HH24:MI:SS.FF3')";
+  public static final String REAL_TS = "TO_TIMESTAMP_TZ('2018-04-08T18:21:01+01:00'," + ISO_8061_TZ + ")";
+  public static final String HOM_ID = "t336";
+  public static final String AWA_ID = "t337";
   public static final Integer HOM_POS = 1;
   public static final Integer AWA_POS = 2;
   public static final String RESP_ANALYST = "scfe6fyiwvg1dwttvo4ayzb09b";
@@ -63,24 +63,26 @@ public class ForfarVsQueensPark {
   static List<String> off_types = Arrays
       .asList(OfficialTypeEnum.MAIN.getUuid(), OfficialTypeEnum.LINEMAN_1.getUuid(), OfficialTypeEnum.LINEMAN_2.getUuid());
 
-  static List<String> opta_period_TS = Arrays.asList("TO_TIMESTAMP_TZ('2018-04-21T15:00:32+01:00'," + ISO_8061_TZ + ")",
-      "TO_TIMESTAMP_TZ('2018-04-21T15:46:53+01:00'," + ISO_8061_TZ + ")",
-      "TO_TIMESTAMP_TZ('2018-04-21T16:01:23+01:00'," + ISO_8061_TZ + ")",
-      "TO_TIMESTAMP_TZ('2018-04-21T16:50:36+01:00'," + ISO_8061_TZ + ")");
+  static List<String> opta_period_TS = Arrays.asList("TO_TIMESTAMP_TZ('2018-03-31T15:01:42+01:00'," + ISO_8061_TZ + ")",
+      "TO_TIMESTAMP_TZ('2018-03-31T15:46:44+01:00'," + ISO_8061_TZ + ")",
+      "TO_TIMESTAMP_TZ('2018-03-31T16:01:50+01:00'," + ISO_8061_TZ + ")",
+      "TO_TIMESTAMP_TZ('2018-03-31T16:50:47+01:00'," + ISO_8061_TZ + ")");
 
   // OPTA HOME LINEUPS
-  static MatchEvent opHLU1 = new MatchEvent(GKEEPER, OPTA, null, "p106270", HOM_ID, HOM_POS, 1, "Marc", "McCallum", null, null, null, null, REAL_TS);
-  static MatchEvent opHLU2 = new MatchEvent(DEF, OPTA, null, "p173200", HOM_ID, HOM_POS, 4, "Andy", "Munro", null, null, null, null, REAL_TS);
-  static MatchEvent opHLU3 = new MatchEvent(DEF, OPTA, null, "p103050", HOM_ID, HOM_POS, 5, "Michael", "Travis", null, null, null, null, REAL_TS);
-  static MatchEvent opHLU4 = new MatchEvent(DEF, OPTA, null, "p58413", HOM_ID, HOM_POS, 2, "Jamie", "Bain", null, null, null, null, REAL_TS);
-  static MatchEvent opHLU5 = new MatchEvent(DEF, OPTA, null, "p192819", HOM_ID, HOM_POS, 3, "Darren", "Whyte", null, null, null, null, REAL_TS);
-  static MatchEvent opHLU6 = new MatchEvent(MID, OPTA, null, "p229311", HOM_ID, HOM_POS, 8, "Russell", "Dingwall", null, null, null, null, REAL_TS);
-  static MatchEvent opHLU7 = new MatchEvent(MID, OPTA, null, "p220364", HOM_ID, HOM_POS, 6, "Murray", "MacKintosh", null, null, null, null, REAL_TS);
-  static MatchEvent opHLU8 = new MatchEvent(MID, OPTA, null, "p229312", HOM_ID, HOM_POS, 7, "Ross", "Maciver", null, null, null, null, REAL_TS);
-  static MatchEvent opHLU9 = new MatchEvent(MID, OPTA, null, "p111914", HOM_ID, HOM_POS, 10, "Dylan", "Easton", null, null, null, null, REAL_TS);
-  static MatchEvent opHLU10 = new MatchEvent(STR, OPTA, null, "p78613", HOM_ID, HOM_POS, 9, "Dale", "Hilson", null, null, null, null, REAL_TS);
-  static MatchEvent opHLU11 = new MatchEvent(STR, OPTA, null, "p193419", HOM_ID, HOM_POS, 11, "Greg", "Hurst", null, null, null, null, REAL_TS);
-  static MatchEvent opHLU12 = new MatchEvent(SUB, OPTA, null, "p2368", HOM_ID, HOM_POS, 14, "Kevin", "McNaughton", null, null, null, null, REAL_TS);
+  static MatchEvent opHLU1 = new MatchEvent(GKEEPER, OPTA, null, "p101778", HOM_ID, HOM_POS, 1, "Neil", "Parry", null, null, null, null, REAL_TS);
+  static MatchEvent opHLU2 = new MatchEvent(DEF, OPTA, null, "p193127", HOM_ID, HOM_POS, 3, "Callum", "Crane", null, null, null, null, REAL_TS);
+  static MatchEvent opHLU3 = new MatchEvent(DEF, OPTA, null, "p57873", HOM_ID, HOM_POS, 4, "Andrew", "Graham", null, null, null, null, REAL_TS);
+  static MatchEvent opHLU4 = new MatchEvent(DEF, OPTA, null, "p192886", HOM_ID, HOM_POS, 5, "Jamie", "McCart", null, null, null, null, REAL_TS);
+  static MatchEvent opHLU5 = new MatchEvent(DEF, OPTA, null, "p82492", HOM_ID, HOM_POS, 2, "Scott", "Taggart", null, null, null, null, REAL_TS);
+  static MatchEvent opHLU6 = new MatchEvent(MID, OPTA, null, "p27689", HOM_ID, HOM_POS, 11, "Iain", "Flannigan", null, null, null, null, REAL_TS);
+  static MatchEvent opHLU7 = new MatchEvent(MID, OPTA, null, "p230347", HOM_ID, HOM_POS, 7, "Callum", "Smith", null, null, null, null, REAL_TS);
+  static MatchEvent opHLU8 = new MatchEvent(MID, OPTA, null, "p124110", HOM_ID, HOM_POS, 8, "Steven", "Hetherington", null, null, null, null, REAL_TS);
+  static MatchEvent opHLU9 = new MatchEvent(MID, OPTA, null, "p74254", HOM_ID, HOM_POS, 6, "Jon", "Robertson", null, null, null, null, REAL_TS);
+  static MatchEvent opHLU10 = new MatchEvent(STR, OPTA, null, "p50477", HOM_ID, HOM_POS, 10, "Jordan", "Kirkpatrick", null, null, null, null, REAL_TS);
+  static MatchEvent opHLU11 = new MatchEvent(STR, OPTA, null, "p193419", HOM_ID, HOM_POS, 9, "Ross", "Stewart", null, null, null, null, REAL_TS);
+
+
+  static MatchEvent opHLU12 = new MatchEvent(SUB, OPTA, null, "p71231", HOM_ID, HOM_POS, 14, "Kevin", "McNaughton", null, null, null, null, REAL_TS);
   static MatchEvent opHLU13 = new MatchEvent(SUB, OPTA, null, "p192621", HOM_ID, HOM_POS, 15, "Dean", "Brotherston", null, null, null, null, REAL_TS);
   static MatchEvent opHLU14 = new MatchEvent(SUB, OPTA, null, "p441402", HOM_ID, HOM_POS, 17, "Ben", "Starkey", null, null, null, null, REAL_TS);
   static MatchEvent opHLU15 = new MatchEvent(SUB, OPTA, null, "p172210", HOM_ID, HOM_POS, 12, "Josh", "Peters", null, null, null, null, REAL_TS);
@@ -181,17 +183,9 @@ public class ForfarVsQueensPark {
       .asList("1:1", "A", "3", "22", "22", "13", "10", "2", "2E", "1:1", "2:2", "0:0", "1:0", "0:0", "2:3", "0:0", "0:0", "0:0", "0:0");
 
   public static void printMatch() {
-    String delete =
-        "DELETE FROM DQM_OWNER.DQM_MATCH_EVENTS WHERE EVENT_GROUP_UUID IN (SELECT EVENT_GROUP_UUID FROM DQM_OWNER.MATCH_EVENT_GROUPS WHERE FIXTURE_UUID = '"
-            + FIX_UUID + "');" +
-            "DELETE FROM DQM_OWNER.MATCH_EVENT_GROUPS WHERE FIXTURE_UUID = '"+ FIX_UUID + "';" +
-            " DELETE FROM DQM_OWNER.MATCH_SUMMARIES WHERE FIXTURE_UUID = '"+ FIX_UUID + "';" +
-            " DELETE FROM DQM_OWNER.DQM_MATCHES WHERE FIXTURE_UUID = '"+ FIX_UUID + "';";
-
-    print(delete + "\n");
-
     String insert = "INSERT INTO DQM_OWNER.DQM_MATCHES(FIXTURE_UUID, QA_STATUS_UUID) VALUES ('%s', '%s');";
     printQuery(insert, FIX_UUID, UNCHECKED_UUID);
+    print("COMMIT;");
 
     printSummaries();
     printEvents();
@@ -208,16 +202,19 @@ public class ForfarVsQueensPark {
       printQuery(insert, "DQM_OWNER.MATCH_SUMMRS_SUMMR_ID_SEQ.NEXTVAL", FIX_UUID, OPTA, summary.getUuid(), opSummaries.get(enumList.indexOf(summary)),
           "CURRENT_TIMESTAMP");
     }
+    print("COMMIT;");
 
     print("\n----- MATCH SUMMARIES OPTA CORE -----");
     for (SummaryEnum summary : enumList) {
       printQuery(insert, "DQM_OWNER.MATCH_SUMMRS_SUMMR_ID_SEQ.NEXTVAL", FIX_UUID, OC, summary.getUuid(), "A", "CURRENT_TIMESTAMP");
     }
+    print("COMMIT;");
 
     print("\n----- MATCH SUMMARIES RB -----");
     for (SummaryEnum summary : enumList) {
       printQuery(insert, "DQM_OWNER.MATCH_SUMMRS_SUMMR_ID_SEQ.NEXTVAL", FIX_UUID, RB, summary.getUuid(), "A", "CURRENT_TIMESTAMP");
     }
+    print("COMMIT;");
 
   }
 
@@ -237,16 +234,17 @@ public class ForfarVsQueensPark {
       printQuery(eventInsert, getUniqueId(), randomUuid, event.getSource(), null,
           event.getPlayerJersey(),
           event.getFullName(),
-          event.getPeriod(), event.getMin(), event.getSec(),
+          null, null, null,
           UPDATE_CREATE_TS, "N",
           event.getFirstName(),
           event.getLastName(),
           event.getExtTeamId(),
           event.getExtPlayerId(),
           event.getRealTimestamp(),
-          null, event.getTime(),
+          null, null,
           UPDATE_CREATE_TS);
     }
+    print("COMMIT;");
 
     print("\n----- LINEUPS AWAY TEAM -----");
     for (MatchEvent event : optaAwayLineUps) {
@@ -255,16 +253,17 @@ public class ForfarVsQueensPark {
       printQuery(eventInsert, getUniqueId(), randomUuid, event.getSource(), null,
           event.getPlayerJersey(),
           event.getFullName(),
-          event.getPeriod(), event.getMin(), event.getSec(),
+          null, null, null,
           UPDATE_CREATE_TS, "N",
           event.getFirstName(),
           event.getLastName(),
           event.getExtTeamId(),
           event.getExtPlayerId(),
           event.getRealTimestamp(),
-          null, event.getTime(),
+          null, null,
           UPDATE_CREATE_TS);
     }
+    print("COMMIT;");
 
     print("\n----- OFFICIALS -----");
     for (MatchEvent event : officials) {
@@ -273,18 +272,19 @@ public class ForfarVsQueensPark {
       printQuery(eventInsert, getUniqueId(), randomUuid, event.getSource(), null,
           event.getPlayerJersey(),
           event.getFullName(),
-          event.getPeriod(), event.getMin(), event.getSec(),
+          null, null, null,
           UPDATE_CREATE_TS, "N",
           event.getFirstName(),
           event.getLastName(),
           event.getExtTeamId(),
           event.getExtPlayerId(),
           event.getRealTimestamp(),
-          null, event.getTime(),
+          null, null,
           UPDATE_CREATE_TS);
       // OPTA CORE INSERT
       // RB INSERT
     }
+    print("COMMIT;");
 
     print("\n----- PERIODS -----");
     for (MatchEvent event : periods) {
@@ -293,14 +293,14 @@ public class ForfarVsQueensPark {
       printQuery(eventInsert, getUniqueId(), randomUuid, event.getSource(), null,
           event.getPlayerJersey(),
           event.getFullName(),
-          event.getPeriod(), event.getMin(), event.getSec(),
+          null, null, null,
           UPDATE_CREATE_TS, "N",
           event.getFirstName(),
           event.getLastName(),
           event.getExtTeamId(),
           event.getExtPlayerId(),
           event.getRealTimestamp(),
-          null, event.getTime(),
+          null, null,
           UPDATE_CREATE_TS);
     }
 
@@ -311,16 +311,17 @@ public class ForfarVsQueensPark {
       printQuery(eventInsert, getUniqueId(), randomUuid, event.getSource(), null,
           event.getPlayerJersey(),
           event.getFullName(),
-          event.getPeriod(), event.getMin(), event.getSec(),
+          null, null, null,
           UPDATE_CREATE_TS, "N",
           event.getFirstName(),
           event.getLastName(),
           event.getExtTeamId(),
           event.getExtPlayerId(),
           event.getRealTimestamp(),
-          null, event.getTime(),
+          null, null,
           UPDATE_CREATE_TS);
     }
+    print("COMMIT;");
 
     print("\n----- SUBSTITUTIONS -----");
     for (MatchEvent event : opSubs) {
@@ -329,16 +330,17 @@ public class ForfarVsQueensPark {
       printQuery(eventInsert, getUniqueId(), randomUuid, event.getSource(), null,
           event.getPlayerJersey(),
           event.getFullName(),
-          event.getPeriod(), event.getMin(), event.getSec(),
+          null, null, null,
           UPDATE_CREATE_TS, "N",
           event.getFirstName(),
           event.getLastName(),
           event.getExtTeamId(),
           event.getExtPlayerId(),
           event.getRealTimestamp(),
-          null, event.getTime(),
+          null, null,
           UPDATE_CREATE_TS);
     }
+    print("COMMIT;");
 
     print("\n----- BOOKINGS -----");
     for (MatchEvent event : bookings) {
@@ -347,14 +349,14 @@ public class ForfarVsQueensPark {
       printQuery(eventInsert, getUniqueId(), randomUuid, event.getSource(), null,
           event.getPlayerJersey(),
           event.getFullName(),
-          event.getPeriod(), event.getMin(), event.getSec(),
+          null, null, null,
           UPDATE_CREATE_TS, "N",
           event.getFirstName(),
           event.getLastName(),
           event.getExtTeamId(),
           event.getExtPlayerId(),
           event.getRealTimestamp(),
-          null, event.getTime(),
+          null, null,
           UPDATE_CREATE_TS);
     }
 
